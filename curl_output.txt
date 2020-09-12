@@ -1,0 +1,60 @@
+=========================================== \n
+HTTP Response:- \n
+=========================================== \n
+\n
+HTTP Return Code:- %{http_code} \n
+HTTP Response Code:- %{response_code} \n
+HTTP Connect Code:- %{http_code} \n
+HTTP Total Response Time:- %{time_total} seconds \n
+\n
+=========================================== \n
+HTTP Request Details:- \n
+=========================================== \n
+\n
+Local IP:- %{local_ip} \n
+Local Port:- %{local_port} \n
+Number of Connects attempts:- %{num_connects} \n
+Number of URL redirects:- %{num_redirects} \n
+Remote Host IP:- %{remote_ip} \n
+Remote Host Port:- %{remote_port} \n
+\n
+=========================================== \n
+URL Redirection:- \n
+=========================================== \n
+\n
+Redirected Effective URL:- %{url_effective} \n
+Redirected URL:- %{redirect_url} \n
+\n
+=========================================== \n
+SSL TLS Handshake Status:- \n
+=========================================== \n
+\n
+Proxy SSL Handshake Status:- %{proxy_ssl_verify_result} \n
+SSL Handshake Status:- %{ssl_verify_result} \n
+\n
+=========================================== \n
+Data Transfer Details:- \n
+=========================================== \n
+\n
+Total Bytes Downloaded:- %{size_download} Bytes \n
+Total Header Bytes Downloaded:- %{size_header} Bytes \n
+Total Request Bytes Sent:- %{size_request} Bytes \n
+Total Bytes Uploaded:- %{speed_upload} Bytes \n
+Average Download Speed BPS:- %{speed_download} Bytes per second \n
+Average Upload Speed BPS:- %{speed_upload} Bytes per second \n
+\n
+=========================================== \n
+URL Times:- \n
+=========================================== \n
+\n
+DNS Time:- %{time_namelookup} seconds \n
+TCP Connection Setup Time:- %{time_connect} seconds \n
+App SSL Connection Setup Time:- %{time_appconnect} seconds \n
+PreTransfer Time:- %{time_pretransfer} seconds \n
+Total URL Redirection Time:- %{time_redirect} seconds \n
+Time for First Byte Download:- %{time_starttransfer} seconds \n
+=========================================== \n
+Total Time taken:- %{time_total} seconds \n
+=========================================== \n
+\n
+
