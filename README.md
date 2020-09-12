@@ -2,7 +2,7 @@
 
 #Usage Syntax:-
 
-curl -o /dev/null -w "@curl_output.txt" <<URL to Test>>
+curl -o /dev/null -w "@curl_output.txt" [URL to Test]
 
 # Example Command
 
@@ -10,7 +10,8 @@ curl -o /dev/null -ksL -w "@curl_output.txt" https://google.com
 
 # Example Commmand Output
 
-MyShell% curl -o /dev/null -sL -w "@curl_output.txt" https://google.com 
+MyShell% curl -o /dev/null -sL -w "@curl_output.txt" https://google.com
+
 ===========================================
 HTTP Response:-
 ===========================================
